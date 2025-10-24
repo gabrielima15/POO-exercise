@@ -32,7 +32,7 @@ public class Televisor {
     }
 
     public void ligar(){
-        if(!ligado){
+        if(ligado == false){
             ligado = true;
             System.out.println("ligando a TV");
         }else{
@@ -81,8 +81,8 @@ public class Televisor {
             System.out.println("TV está desligada");
         }
     }
-
-    public String toString(){
+    @Override
+     public String toString(){
         return String.format("A televisão está %b no canal %d no volume %d",ligado,canal,volume);
     }
 
