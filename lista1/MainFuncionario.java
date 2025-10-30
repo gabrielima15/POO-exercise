@@ -1,4 +1,4 @@
-import lista1.Funcionario;
+package lista1;
 
 public class MainFuncionario {
     public static void main(String[] args){

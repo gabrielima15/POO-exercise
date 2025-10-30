@@ -1,4 +1,4 @@
-import lista1.FitadeVideo;
+package lista1;
 
 public class MainFitaVideo {
     public static void main(String[] args){

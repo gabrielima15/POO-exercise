@@ -1,4 +1,4 @@
-import lista1.Circulo;
+package lista1;
 public class AreaDoCirculo {
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-import lista1.Retangulo;
+package lista1;
 
 public class areaDoRetangulo {
     public static void main(String[] args){
