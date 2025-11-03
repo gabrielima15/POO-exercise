@@ -1,3 +1,4 @@
+package lista6_vetor;
 public class AB{
     public static void main(String[] args){
         int[] a  = {1,2,3,4,5};
