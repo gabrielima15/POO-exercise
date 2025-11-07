@@ -1,3 +1,4 @@
+package lista6_vetor;
 import java.lang.Math;
 public class RaizQuadrada {
      public static void main(String[] args) {

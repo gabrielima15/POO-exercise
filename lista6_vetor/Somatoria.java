@@ -1,3 +1,4 @@
+package lista6_vetor;
 import java.util.Scanner;
 public class Somatoria {
     public static void main(String[] args) {

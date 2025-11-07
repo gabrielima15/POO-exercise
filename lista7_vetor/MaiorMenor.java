@@ -15,6 +15,5 @@ public class MaiorMenor {
         }
 
         System.out.printf("maior Número é %d e o menor é %d.\n",max,min);
-        
     }
 }
