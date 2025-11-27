@@ -5,9 +5,9 @@ public class Main {
         
         Mercado m = new Mercado();
 
-        m.adicionarCliente(new RegulaCliente("joao",12.5));
-        m.adicionarCliente(new VipCliente("Carlos", 150, "4566"));
-        m.adicionarCliente(new OutroVipCliente("Ricardão", 5000, "21456", "rua do asfalto"));
+        m.adicionarCliente(new ClienteRegular("joao",12.5));
+        m.adicionarCliente(new ClienteVip("Carlos", 150, "4566"));
+        m.adicionarCliente(new ClienteOuroVip("Ricardão", 5000, "21456", "rua do asfalto"));
 
         m.inprimirCliente();
 

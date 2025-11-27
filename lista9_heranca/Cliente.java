@@ -31,5 +31,9 @@ public abstract class Cliente {
         return getValorDaCompra();
     }
 
+    @Override
+    public String toString(){
+        return String.format("nome: %s | Valor a Pagar: %.2f",getNome(),getValorDaCompra());
+    }
     
 }

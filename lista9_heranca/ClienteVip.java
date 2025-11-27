@@ -1,9 +1,9 @@
 package lista9_heranca;
 
-public class VipCliente extends Cliente{
+public class ClienteVip extends Cliente{
     private String numCartao;
 
-    public VipCliente(String nome, double valorDaCompra, String numCartao) {
+    public ClienteVip(String nome, double valorDaCompra, String numCartao) {
         super(nome, valorDaCompra);
         this.numCartao = numCartao;
     }
@@ -20,5 +20,10 @@ public class VipCliente extends Cliente{
     public double calcularPagamento() {
         double valor = getValorDaCompra() * 0.1;
         return getValorDaCompra() - valor;
+    }
+
+     @Override
+    public String toString(){
+        return super.toString() + String.format("| código Cartão: %s ",getNumCartao());
     }
 }

@@ -1,10 +1,10 @@
 package lista9_heranca;
 
 
-public class OutroVipCliente extends VipCliente{
+public class ClienteOuroVip extends ClienteVip{
     private String endereco;
 
-    public OutroVipCliente(String nome,double valorDaCompra,String numCartao,String endereco){
+    public ClienteOuroVip(String nome,double valorDaCompra,String numCartao,String endereco){
         super(nome,valorDaCompra,numCartao);
         this.endereco = endereco;
     }
@@ -19,5 +19,10 @@ public class OutroVipCliente extends VipCliente{
     public double calcularPagamento(){
         double valor = getValorDaCompra() * 0.15;
         return getValorDaCompra() - valor;
+    }
+
+    @Override
+    public String toString(){
+        return super.toString()+String.format("| Endereço: %s\n",getEndereco());
     }
 }
